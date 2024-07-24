@@ -7,6 +7,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('captcha-form',['CaptchaController@captcha-form'])->name('captcha-form');
-Route::get('get-captcha',['CaptchaController@get-captcha'])->name('get-captcha');
-Route::post('captcha',['CaptchaController@captcha'])->name('captcha');
+Route::get('captcha-form',[CaptchaController::class,'captcha_form'])->name('captcha_form');
+Route::get('get-captcha',[CaptchaController::class,'get_captcha'])->name('get_captcha');
+Route::post('captcha',[CaptchaController::class,'captcha'])->name('captcha');
