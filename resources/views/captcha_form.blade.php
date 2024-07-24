@@ -10,11 +10,18 @@
     <div class="form-group">
         <div class="mt-3">
             <input type="text" name="name" class="form-control">
+            @error('name')
+                    {{ $message }}
+                @enderror
         </div>
         <div class="mt-3"> 
             <div id="captcha">
-                <span>{!! captcha_img() !!}</span>
+                <span>{!! captcha_img('math') !!}</span>
                 <button type="button" class="btn btn-sm btn-danger reload" id="reload">&#x21bb;</button>
+                <input type="text" name="captcha" class="form-control">
+                @error('captcha')
+                    {{ $message }}
+                @enderror
             </div>
         </div>
     </div>
