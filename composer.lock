@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7ab299c66f3577c704664ff28d83cb05",
+    "content-hash": "b8cdd6100f2be747a9caf04184ea63d1",
     "packages": [
         {
             "name": "brick/math",
@@ -3468,6 +3468,59 @@
                 }
             ],
             "time": "2024-04-27T21:32:50+00:00"
+        },
+        {
+            "name": "rmunate/spell-number",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rmunate/SpellNumber.git",
+                "reference": "c225b10c03a82570c0be2ad0a1e916c2637aadcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rmunate/SpellNumber/zipball/c225b10c03a82570c0be2ad0a1e916c2637aadcf",
+                "reference": "c225b10c03a82570c0be2ad0a1e916c2637aadcf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Rmunate\\Utilities\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raul Mauricio Uñate Castro",
+                    "email": "raulmauriciounate@gmail.com"
+                }
+            ],
+            "description": "Convierta de números a letras, ideal para uso en facturas, remisiones ó similares.",
+            "keywords": [
+                "altum",
+                "letras",
+                "numeros",
+                "rmunate",
+                "spell"
+            ],
+            "support": {
+                "issues": "https://github.com/rmunate/SpellNumber/issues",
+                "source": "https://github.com/rmunate/SpellNumber/tree/v1.0.0"
+            },
+            "abandoned": "illuminate/support",
+            "time": "2023-02-13T12:59:28+00:00"
         },
         {
             "name": "stella-maris/clock",
